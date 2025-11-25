@@ -1,0 +1,181 @@
+FUM 2526,
+Ledamot: Adrian Murray
+Ledamot: Agnes Johannesson
+Ledamot: Albin Svensson
+Ledamot: Alem Zvirkic
+Ledamot: Amir Hindawi
+Ledamot: Christoffer Bohman
+Ledamot: Didrik Dahlqvist
+Ledamot: Ebba Eberhardsson
+Ledamot: Erik Nilsson
+Ledamot: Hampus Eklund
+Ledamot: Hanna Larsson
+Ledamot: Ida Lövström
+Ledamot: Kristoffer Wessling
+Ledamot: Linus Holmström
+Ledamot: Lovisa Nilsson
+Ledamot: Marcus Pettersson
+Ledamot: Maximilian Carlbäck
+Ledamot: Nora Levin
+Ledamot: Oskar Simms
+Ledamot: Rut Samuelsson Frostensson
+Ledamot: Vincent Elrud
+.smoersex 2425,
+Ordförande: Ebba Ahlin
+Vice ordförande: Gabriel Sjögren
+Sekreterare: Sara Branje
+Kåransvarig: Totte Hansen
+Ekonomiansvarig: Patrycja Kuzaj
+Ledamot: Emery Tyynelä Norling
+Mentor: Emma Andersson
+Mentor: Henning Andersson
+Mentor: Elin Sjöberg
+KIDS 2425,
+Ordförande: Erik Nilsson
+Vice Ordförande: Guilin Nsengiyumva
+Sekreterare: Emil Halvarsson
+Ekonomiansvarig: Max Nilsson
+Ledamot: Anton Wall
+Ledamot: Oliver Håkansson
+KPS 2425,
+Ordförande: Anton Helmersson
+Vice Ordförande: Amir Hindawi
+Sekreterare: Moa Prim
+Ekonomiansvarig: Viktor Ramström
+Ledamot: Erik Nilsson
+Ledamot: Ewelina Waniewska
+Ledamot: Gustaf Lindhqvist
+Ledamot: Majed Fakhr Eldin
+Ledamot: Mimmi Sekander
+Ledamot: Nora Levin
+Ledamot: Oliver Håkansson
+Ledamot: Selma Bergström
+Ledamot: Theodor Wallér
+Sexiztenz 2425,
+Ordförande: Joel Or
+Vice ordförande: Alem Zvirkic
+Ekonomiansvarig: David Bergvall
+Sekreterare: Adrian Murray
+PR ansvarig: Lovisa Nilsson
+Kommunikationsansvarig: Oskar Simms
+Introduktionsansvarig: Tess Forsberg
+Introduktionsansvarig: Leo Agevik
+Evenemangsansvarig: Kim Larsson
+Ledamot: Bastian Norda
+Ledamot: Lucas Nordström
+Ledamot: Rut Samuelsson Forstensson
+Mentor: Tove Freed
+Mentor: Johannes Nordborg
+SIT 2425,
+Ordförande: Albin Svensson
+Vice ordförande: Liam Ekman
+Sekreterare: Sofia Gimholt
+Ekonomiansvarig: Egil Holmlund
+Kommunikationsansvarig: Rasmus Andersen
+Evenemangsansvarig: Emma Glad
+Evenemangsansvarig: Ewelina Waneiwska
+Sång- och Spexansvarig: Filippa Lissäng Öst
+Materialansvarig: Emma Olsson
+Materialansvarig: Melker Månsson
+Ledamot: Fanny Hagenfeldt
+Ledamot: Henrietta Fransson
+Ledamot: Sofia Rämmal
+#ROOT 2425,
+Ordförande: Melker Månsson
+Vice ordförande: Gustav Nordberg
+Sekreterare: Jesper Lennehag
+Ekonomiansvarig: Emma Ehn Paulsson
+Utbildningsansvarig: Moa Prim
+Utbildningsansvarig: Janine De Vries
+Marknasföringsansvarig: Oliver Strålbrand
+Ledamot: Felix Andersson
+Ledamot: Felix Davidsson
+Ledamot: Theodor Buskenström
+Ledamot: Emil Schütt
+BITS 2425,
+Ordförande: Kristoffer Wessling
+Vice ordförande: Ruben Lindskog
+Ekonomiansvarig: Samuel Nyberg
+Ledamot: Amir Hindawi
+Ledamot: Arturs Bitenbinders
+Ledamot: Emma-Marie Pantazar
+Ledamot: Jakob Kädergård
+Ledamot: Mirian Ismail
+Ledamot: Samuel Lindén
+Ledamot: Simon Ljung
+Ledamot: Tindra Blomgren
+Ledamot: Tobias Mattsson
+BOSS 2425,
+Ordförande: Samuel Hellkvist
+Vice Ordförande: Christoffer Bohman
+Sekreterare: Sebastian Einarsson
+Ekonomiansvarig: Isac Björebro
+Webb- och medieansvarig: Filippa Lissäng Öst
+PR- och kommunikationsansvarig: Hampus Eklund
+EKEN 2425,
+Ordförande: Vincent Jyrell
+Vice ordförande: Morgan Stigeborn
+Sekreterare: Edward Christensen
+Ekonomiansvarig: Emil Johansson
+Utbildningsansvarig: Emma Radetinac
+Valberedning: Christopher Chen
+Valberedning: Symen Atia
+Valberedning: William Ahlgren
+Marknadsföringsansvarig: Ivan Sivolov
+PR-ansvarig: Nelly Haraldsson
+Näringslivsansvarig: Viktor Wennerberg
+Ledamot: Adam Palmer
+Ledamot: Elias Hjalmarsson
+Ledamot: Wigo Thygesson
+MUK 2425,
+Ordförande: Caela Landin
+Vice ordförande: Emery Tyynelä Norling
+Sekreterare: Arvid Sandinge
+Ekonomiansvarig: Joel Pettersson
+Ledamot: Björn Sennvall
+Mårfin(t),
+Ordförande: Matilda Bergenudd
+Vice ordförande: Miranda Kaspersen
+Ekonomiansvarig: Fanny Nilsson
+Sekreterare: Henrietta Fransson
+Evenemangsansvarig: Hariz Sultan
+Utbildningsansvarig: Emelie Vigren
+PR och kommunikationsansvarig: Rayane Barros
+Ledamot: Ebba Svensson
+ROST 2425,
+Ordförande: Hugo Gustafsson
+Vice ordförande: Fabian Sonnelid
+Sekreterare: Sasha Gill
+Ekonomiansvarig: Christian Löf
+Utbildningsansvarig: Wilma Silvander
+Näringslivsansvarig: Yohannes Zemichael
+Marknadsföringsansvarig: Viggo Randerz
+Verkstadsansvarig: Dong Jiang
+Ledamot: August Tidstrand
+Ledamot: Nemanja Kovrlija
+Ledamot: Sami Alsalama
+DK 2425,
+Ordförande: Kjartan Rasmussen
+Ledamot: Xingru Chen
+Ledamot: Elaine Daly
+Ledamot: Muhammad Laiq
+KS 2425,
+Ordförande: Theo Falk
+Vice ordförande: Izabella Silfverberg
+Sekreterare: Elin Sjöberg
+Samverkansansvarig: Totte Hansen
+PR-ansvarig: Mollie Bates
+Evenemangskoordinator: Alexandra Öhrberg
+Evenemangskoordinator: Emma Andersson
+Evenemangskoordinator: Fanny Hagenfeldt
+Expeditionsansvarig: Abdel Al Boji
+Ledamot: Yohannes Zemichael
+Valberedning 2425,
+Ledamot: Adrian Murray
+Ledamot: Hampus Eklund
+Ledamot: Rut Samuelsson Frostensson
+Revisorer 2425,
+Verksamhetsrevisor: Linus Ridell
+Verksamhetsrevisor: Love Andrén
+Verksamhetsrevisor: Victor Arvidsson
+Ekonomisk Revisor: Bilbo Zinders

@@ -11,34 +11,43 @@ pub struct VotingGroup<'a> {
 pub struct AnalysisResult<'a> {
     pub groups: Vec<VotingGroup<'a>>,
     pub impossible: Vec<&'a Board>,
-    pub total_fum_count: usize,
+    pub total_seats: usize,
+    pub present_count: usize,
     pub quorum_limit: usize,
 }
 
-pub fn analyze_voting_groups<'a>(fum: &Board, all_boards: &'a [&'a Board]) -> AnalysisResult<'a> {
-    let fum_names: HashSet<String> = fum.members.iter().map(|m| m.name.clone()).collect();
-    let total_fum_count = fum_names.len();
+pub fn analyze_voting_groups<'a>(
+    fum: &Board,
+    all_boards: &'a [&'a Board],
+    absent_members: &HashSet<String>,
+) -> AnalysisResult<'a> {
+    let fum_names_all: HashSet<String> = fum.members.iter().map(|m| m.name.clone()).collect();
+    let total_seats = fum_names_all.len();
 
-    let quorum_limit = (total_fum_count as f64 / 2.0).ceil() as usize;
+    let quorum_limit = (total_seats as f64 / 2.0).ceil() as usize;
+
+    let present_fum_names: HashSet<String> =
+        fum_names_all.difference(absent_members).cloned().collect();
+
+    let present_count = present_fum_names.len();
 
     let mut voting_groups: Vec<VotingGroup> = Vec::new();
     let mut impossible_boards: Vec<&Board> = Vec::new();
 
-    let targets: Vec<&&Board> = all_boards
-        .into_iter()
-        .filter(|b| b.name != fum.name)
-        .collect();
+    let targets: Vec<&&Board> = all_boards.into_iter().collect();
 
     for target_board in targets {
         let conflicts: HashSet<String> = target_board
             .members
             .iter()
-            .filter(|m| fum_names.contains(&m.name))
+            .filter(|m| fum_names_all.contains(&m.name))
             .map(|m| m.name.clone())
             .collect();
 
-        let remaining_if_alone = total_fum_count - conflicts.len();
-        if remaining_if_alone < quorum_limit {
+        let conflicts_present: HashSet<_> = conflicts.intersection(&present_fum_names).collect();
+        let eligible_voters = present_count - conflicts_present.len();
+
+        if eligible_voters < quorum_limit {
             impossible_boards.push(target_board);
             continue;
         }
@@ -50,7 +59,10 @@ pub fn analyze_voting_groups<'a>(fum: &Board, all_boards: &'a [&'a Board]) -> An
                 .union(&conflicts)
                 .cloned()
                 .collect();
-            let remaining_voters = total_fum_count - union_conflicts.len();
+
+            let union_conflicts_present: HashSet<_> =
+                union_conflicts.intersection(&present_fum_names).collect();
+            let remaining_voters = present_count - union_conflicts_present.len();
 
             if remaining_voters >= quorum_limit {
                 group.boards.push(target_board);
@@ -71,7 +83,8 @@ pub fn analyze_voting_groups<'a>(fum: &Board, all_boards: &'a [&'a Board]) -> An
     AnalysisResult {
         groups: voting_groups,
         impossible: impossible_boards,
-        total_fum_count,
+        total_seats,
+        present_count,
         quorum_limit,
     }
 }
