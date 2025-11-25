@@ -26,7 +26,7 @@ fn test_algorithm_basic_packing() {
     let b1 = make_board("KIDS", "24/25", vec!["A", "B", "C"]);
     let b2 = make_board("SIT", "24/25", vec!["D", "E", "F"]);
 
-    let all = vec![fum.clone(), b1, b2];
+    let all = vec![&fum, &b1,& b2];
     let res = analyze_voting_groups(&fum, &all);
 
     assert_eq!(res.groups.len(), 2);
